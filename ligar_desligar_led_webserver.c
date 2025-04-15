@@ -45,6 +45,7 @@ static err_t tcp_server_recv(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, er
                 "<html>\n"
                 "<head>\n"
                 "<meta charset='UTF-8'>\n"
+                "<script>setTimeout(() => location.reload(), 1000);</script>\n"
                 "<title>LED Control</title>\n"
                 "<style>\n"
                 "body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }\n"
